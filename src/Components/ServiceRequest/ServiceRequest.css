@@ -1,0 +1,144 @@
+.service {
+  width: 100%;
+  height: 1000px;
+  background-color: #ededed;
+  margin-top: 30px;
+}
+
+.service .container {
+  width: 80%;
+  margin: auto;
+}
+
+.service h4 {
+  font-size: 31px;
+  font-weight: bold;
+  color: #124c64;
+}
+
+.service p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  position: relative;
+}
+
+.service .form-control {
+  padding: 0 40px;
+  width: 350px;
+  height: 59px;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  background-color: #ffffff;
+  outline: none;
+}
+.all-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service textarea {
+  padding: 13px 40px;
+  width: 100%;
+  height: 201px;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  background-color: #ffffff;
+  outline: none;
+}
+.textarea-container {
+  position: relative;
+  margin-top: 30px;
+}
+.service-title {
+  padding: 40px 0;
+}
+
+.service-part3 {
+  margin-top: 25px;
+}
+.service-part3 h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #124c64;
+}
+.upload {
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 14px;
+  height: auto;
+  height: 183px;
+  text-align: center;
+}
+
+.ant-upload-hint {
+  color: #757575;
+  font-size: 12px;
+}
+
+.upload-part2 h6 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #124c64;
+}
+.upload-part2 span {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.service-part3 h5,
+.child-part3 h5 {
+  margin: 0 0 20px 0;
+}
+
+.upload-part2 button {
+  height: 42px;
+  width: 148px;
+  border: 1px solid #e38519;
+  background-color: #e38519;
+  color: #ffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.upload-part2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+.upload-part2 .child1 {
+  background-color: #e2dada;
+  border-radius: 16px;
+  padding: 12px;
+}
+
+@media screen and (max-width: 992px) {
+  .service {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .child-part3 {
+    margin-top: 25px;
+  }
+  .input-container {
+    margin-top: 20px;
+  }
+  .service h4 {
+    font-size: 25px;
+  }
+
+  .service p {
+    font-size: 12px;
+  }
+  .service-title {
+    padding: 30px 0 10px 0;
+  }
+  .service .form-control {
+    width: 100%;
+  }
+}

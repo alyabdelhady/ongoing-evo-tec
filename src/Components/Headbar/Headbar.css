@@ -1,0 +1,41 @@
+.headbar {
+  height: 52px;
+  width: 100%;
+  background-color: #124c64;
+}
+.headbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headbar button {
+  height: 52px;
+  width: 205px;
+  border: 1px solid #e38519;
+  background-color: #e38519;
+  color: #ffff;
+}
+.headbar .container div {
+  color: #ffff;
+  font-size: 12px;
+}
+.language {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.headbar span {
+  margin: 0 12px;
+}
+.icon ,.icon:hover{
+    color: #ffff;
+}
+
+
+@media screen and (max-width: 991.5px) {
+ .headbar {
+    display: none;
+  }
+}
+
